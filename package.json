@@ -36,7 +36,7 @@
     "icon.svg",
     "LICENSE",
     "README.md",
-    "README.zh.md",
+    "README.en.md",
     "screenshots.json",
     "assets/*.png",
     "test/activation.selftest.mjs"
