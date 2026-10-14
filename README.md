@@ -5,6 +5,8 @@ English | [中文](README.zh.md)
 Shows **the provider behind the model the current session is using** as a compact badge in the
 DeepSeek Harness (DSH) Web composer tool row, immediately left of the model selector.
 
+![The provider badge in the composer tool row, left of the model selector](assets/screenshot-1.png)
+
 ```
 [+] [workspace write]        [● Provider opencode-go] [DeepSeek V4.1 Flash High ⌄] [↑]
                                 ^^^^^^^^^^^^^^^^^^^^^^ added by this plugin
