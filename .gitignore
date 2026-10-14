@@ -1,0 +1,8 @@
+# Scratch / editor files
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Dependencies (this plugin has none, but local experiments do not belong in the repo)
+node_modules/

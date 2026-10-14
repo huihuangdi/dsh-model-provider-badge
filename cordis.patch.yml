@@ -1,0 +1,7 @@
+# dsh-model-provider-badge 的挂载声明。
+# Host 半边是空壳（apply 不做任何事），真正的渲染在浏览器半边的 client.js：
+# 它把自己注册进 conversation.input.right 这个空座位 —— 该座位在 DOM 里渲染在
+# 模型选择器（conversation.input.model）紧左边，也就是截图红框的位置。
+- insert:
+    - id: model-provider-badge
+      name: 'dsh-model-provider-badge'

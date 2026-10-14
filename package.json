@@ -1,0 +1,54 @@
+{
+  "name": "dsh-model-provider-badge",
+  "version": "1.2.1",
+  "description": "Shows the provider behind the session's current model as a compact badge in the DSH Web composer tool row, left of the model selector. 在输入框工具行、模型选择器左侧显示当前会话所用模型的供应商。",
+  "type": "module",
+  "license": "MIT",
+  "author": "huihuangdi",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "provider",
+    "composer",
+    "badge"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huihuangdi/dsh-model-provider-badge.git"
+  },
+  "homepage": "https://github.com/huihuangdi/dsh-model-provider-badge#readme",
+  "bugs": {
+    "url": "https://github.com/huihuangdi/dsh-model-provider-badge/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "icon": "./icon.svg",
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "LICENSE",
+    "README.md",
+    "README.zh.md",
+    "test/activation.selftest.mjs"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-model-selection"
+      ]
+    }
+  }
+}

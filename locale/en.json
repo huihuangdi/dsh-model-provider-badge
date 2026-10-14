@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Model Provider Badge",
+    "description": "Shows the provider of the session's current model in the composer tool row, just before the model selector."
+  }
+}
